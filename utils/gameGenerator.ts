@@ -150,6 +150,7 @@ export async function generateWordLadderGame(
     }
 
     return {
+      title: '', // Title will be set by the caller
       words: middleWordsWithHints,
       edgeWords,
       edgeHint,
