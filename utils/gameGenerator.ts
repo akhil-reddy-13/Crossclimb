@@ -105,7 +105,7 @@ export async function generateWordLadderGame(
       aiClues = await generateAiClues(middleWords, edgeWords);
     }
 
-    const middleWordsWithHints = middleWords.map((word) => ({
+    const middleWordsWithHints = middleWords.map((word: string) => ({
       correct: word,
       // Use dictionary as primary, Gemini as optional enhancement
       hint: definitions[word] || aiClues.middleClues[word] || generateHint(word),
