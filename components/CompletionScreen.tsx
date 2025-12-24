@@ -79,7 +79,7 @@ export default function CompletionScreen({
             <div className="text-yellow-400 text-3xl">🪜</div>
             <h1 className="text-2xl font-bold text-white">{game.title || 'Crossclimb'}</h1>
           </div>
-          <h2 className="text-3xl font-bold text-white">You're crushing it!</h2>
+          <h2 className="text-3xl font-bold text-white">You&apos;re crushing it!</h2>
         </div>
 
         {/* Stats Cards */}

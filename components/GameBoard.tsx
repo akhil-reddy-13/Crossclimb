@@ -188,7 +188,7 @@ export default function GameBoard({ gameInfo, onBack }: GameBoardProps) {
     }, 100);
     
     setRevealCooldown(20);
-  }, [game, focusedIndex, revealCooldown, gameStatus, replaceWord]);
+  }, [game, focusedIndex, revealCooldown, gameStatus, replaceWord, setFocusedIndex]);
 
   const handleNavigateUp = useCallback(() => {
     if (!game) return;

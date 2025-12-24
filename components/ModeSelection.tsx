@@ -44,7 +44,7 @@ export default function ModeSelection({ onSelectMode }: ModeSelectionProps) {
                 <ul className="list-disc list-inside space-y-2 ml-4">
                   <li><strong className="text-white">Word Ladder Algorithm:</strong> I built a word ladder function that finds the shortest possible path between two words. It uses the Collins Scrabble Words 2019 dictionary and a breadth-first search (BFS) algorithm to efficiently find the minimum number of steps needed to transform one word into another, where each step changes exactly one letter.</li>
                   <li><strong className="text-white">Clue Generation:</strong> Once the word ladder path is found, the app uses a free dictionary API to fetch definitions for each word. The definitions are intelligently trimmed to keep clues concise while preserving important information - we look for natural break points like periods or commas before conjunctions, rather than just cutting off at a fixed word count.</li>
-                  <li><strong className="text-white">Compound Words:</strong> For the final two words (top and bottom rows), the app checks if they form a compound word in either order. If found, it uses that compound word's definition. Otherwise, it combines the individual word definitions to create a helpful hint.</li>
+                  <li><strong className="text-white">Compound Words:</strong> For the final two words (top and bottom rows), the app checks if they form a compound word in either order. If found, it uses that compound word&apos;s definition. Otherwise, it combines the individual word definitions to create a helpful hint.</li>
                 </ul>
                 <p className="text-sm text-gray-400 italic pt-4">
                   Not affiliated with LinkedIn. Made by Akhil Reddy!
@@ -72,7 +72,7 @@ export default function ModeSelection({ onSelectMode }: ModeSelectionProps) {
           >
             <h2 className="text-2xl font-bold text-white mb-3">Auto-Generate</h2>
             <p className="text-blue-100">
-              Choose your starting and ending words, and we'll automatically generate
+              Choose your starting and ending words, and we&apos;ll automatically generate
               the middle words and clues for you!
             </p>
           </button>
